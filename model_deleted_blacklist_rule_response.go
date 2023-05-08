@@ -20,9 +20,13 @@ var _ MappedNullable = &DeletedBlacklistRuleResponse{}
 
 // DeletedBlacklistRuleResponse struct for DeletedBlacklistRuleResponse
 type DeletedBlacklistRuleResponse struct {
+	// Blacklist rule id
 	Id *string `json:"id,omitempty"`
-	Type *string `json:"type,omitempty"`
+	// field used for blacklists rule deleted
+	Field *string `json:"field,omitempty"`
+	// value used for blacklists rule deleted
 	Value *string `json:"value,omitempty"`
+	// use an description for blacklisted rule
 	Description *string `json:"description,omitempty"`
 }
 
@@ -75,36 +79,36 @@ func (o *DeletedBlacklistRuleResponse) SetId(v string) {
 	o.Id = &v
 }
 
-// GetType returns the Type field value if set, zero value otherwise.
-func (o *DeletedBlacklistRuleResponse) GetType() string {
-	if o == nil || IsNil(o.Type) {
+// GetField returns the Field field value if set, zero value otherwise.
+func (o *DeletedBlacklistRuleResponse) GetField() string {
+	if o == nil || IsNil(o.Field) {
 		var ret string
 		return ret
 	}
-	return *o.Type
+	return *o.Field
 }
 
-// GetTypeOk returns a tuple with the Type field value if set, nil otherwise
+// GetFieldOk returns a tuple with the Field field value if set, nil otherwise
 // and a boolean to check if the value has been set.
-func (o *DeletedBlacklistRuleResponse) GetTypeOk() (*string, bool) {
-	if o == nil || IsNil(o.Type) {
+func (o *DeletedBlacklistRuleResponse) GetFieldOk() (*string, bool) {
+	if o == nil || IsNil(o.Field) {
 		return nil, false
 	}
-	return o.Type, true
+	return o.Field, true
 }
 
-// HasType returns a boolean if a field has been set.
-func (o *DeletedBlacklistRuleResponse) HasType() bool {
-	if o != nil && !IsNil(o.Type) {
+// HasField returns a boolean if a field has been set.
+func (o *DeletedBlacklistRuleResponse) HasField() bool {
+	if o != nil && !IsNil(o.Field) {
 		return true
 	}
 
 	return false
 }
 
-// SetType gets a reference to the given string and assigns it to the Type field.
-func (o *DeletedBlacklistRuleResponse) SetType(v string) {
-	o.Type = &v
+// SetField gets a reference to the given string and assigns it to the Field field.
+func (o *DeletedBlacklistRuleResponse) SetField(v string) {
+	o.Field = &v
 }
 
 // GetValue returns the Value field value if set, zero value otherwise.
@@ -184,8 +188,8 @@ func (o DeletedBlacklistRuleResponse) ToMap() (map[string]interface{}, error) {
 	if !IsNil(o.Id) {
 		toSerialize["id"] = o.Id
 	}
-	if !IsNil(o.Type) {
-		toSerialize["type"] = o.Type
+	if !IsNil(o.Field) {
+		toSerialize["field"] = o.Field
 	}
 	if !IsNil(o.Value) {
 		toSerialize["value"] = o.Value

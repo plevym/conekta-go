@@ -4,10 +4,10 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Id** | Pointer to **string** |  | [optional] 
-**Type** | Pointer to **string** |  | [optional] 
-**Value** | Pointer to **string** |  | [optional] 
-**Description** | Pointer to **string** |  | [optional] 
+**Id** | Pointer to **string** | Blacklist rule id | [optional] 
+**Field** | Pointer to **string** | field used for blacklists rule deleted | [optional] 
+**Value** | Pointer to **string** | value used for blacklists rule deleted | [optional] 
+**Description** | Pointer to **string** | use an description for blacklisted rule | [optional] 
 
 ## Methods
 
@@ -53,30 +53,30 @@ SetId sets Id field to given value.
 
 HasId returns a boolean if a field has been set.
 
-### GetType
+### GetField
 
-`func (o *DeletedBlacklistRuleResponse) GetType() string`
+`func (o *DeletedBlacklistRuleResponse) GetField() string`
 
-GetType returns the Type field if non-nil, zero value otherwise.
+GetField returns the Field field if non-nil, zero value otherwise.
 
-### GetTypeOk
+### GetFieldOk
 
-`func (o *DeletedBlacklistRuleResponse) GetTypeOk() (*string, bool)`
+`func (o *DeletedBlacklistRuleResponse) GetFieldOk() (*string, bool)`
 
-GetTypeOk returns a tuple with the Type field if it's non-nil, zero value otherwise
+GetFieldOk returns a tuple with the Field field if it's non-nil, zero value otherwise
 and a boolean to check if the value has been set.
 
-### SetType
+### SetField
 
-`func (o *DeletedBlacklistRuleResponse) SetType(v string)`
+`func (o *DeletedBlacklistRuleResponse) SetField(v string)`
 
-SetType sets Type field to given value.
+SetField sets Field field to given value.
 
-### HasType
+### HasField
 
-`func (o *DeletedBlacklistRuleResponse) HasType() bool`
+`func (o *DeletedBlacklistRuleResponse) HasField() bool`
 
-HasType returns a boolean if a field has been set.
+HasField returns a boolean if a field has been set.
 
 ### GetValue
 

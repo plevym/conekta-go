@@ -5,70 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08e2c1f5-a2da-430f-b582-5bbf57972aea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.openapi-generator/FILES" beforeDir="false" afterPath="$PROJECT_DIR$/.openapi-generator/FILES" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/charge.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/charge/charge_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/charge/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/checkout_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conekta.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/customer_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/destination.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/destination/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/destination/destination_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discountlines.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discountlines/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discountlines/discountlines_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/error.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lineitems.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lineitems/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lineitems/lineitems_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mocks.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/order_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payee.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payee/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payee/payee_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymentsource.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymentsource/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paymentsource/paymentsource_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan/plan_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme_files/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requestor.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shippingcontact.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shippingcontact/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shippingcontact/shippingcontact_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shippinglines.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shippinglines/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shippinglines/shippinglines_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription/Subscription_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscription/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxlines.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxlines/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taxlines/taxlines_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/token.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/token_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transfer.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transfer/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/transfer/transfer_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webhook.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webhook/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webhook/webhook_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/openapi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api/openapi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_antifraud.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_antifraud.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_charges.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_charges.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_customers.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_customers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_discounts.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_discounts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_events.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_events.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_logs.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_logs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_orders.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_orders.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_payment_link.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_payment_link.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_payment_methods.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_payment_methods.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_plans.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_plans.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_products.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_products.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_shipping_contacts.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_shipping_contacts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_shippings.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_shippings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_subscriptions.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_subscriptions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_taxes.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_taxes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_webhooks.go" beforeDir="false" afterPath="$PROJECT_DIR$/api_webhooks.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/AntifraudApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/AntifraudApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ChargeRequest.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ChargeRequest.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ChargeRequestPaymentMethod.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ChargeRequestPaymentMethod.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ChargesApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ChargesApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Customer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Customer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CustomersApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/CustomersApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/DiscountsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DiscountsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/EventsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EventsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/LogsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/LogsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/OrdersApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/OrdersApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaymentLinkApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaymentLinkApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PaymentMethodsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PaymentMethodsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/PlansApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/PlansApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ProductsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ProductsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/RiskRulesList.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/RiskRulesList.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ShippingContactsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ShippingContactsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/ShippingsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ShippingsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/SubscriptionsApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SubscriptionsApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/TaxesApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/TaxesApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UpdateCustomer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UpdateCustomer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/WebhooksApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/WebhooksApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_charge_request.go" beforeDir="false" afterPath="$PROJECT_DIR$/model_charge_request.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_charge_request_payment_method.go" beforeDir="false" afterPath="$PROJECT_DIR$/model_charge_request_payment_method.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_customer.go" beforeDir="false" afterPath="$PROJECT_DIR$/model_customer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_risk_rules_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/model_risk_rules_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_update_customer.go" beforeDir="false" afterPath="$PROJECT_DIR$/model_update_customer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +100,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test conekta-go">
-    <configuration name="TestBlacklistApi/CreateNewBlacklistRule_success in github.com/conekta/conekta-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCompaniesApi/GetCompany_success in github.com/conekta/conekta-go">
+    <configuration name="TestAntifraudApi/CreateRuleWhitelist_success in github.com/conekta/conekta-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="conekta-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -125,10 +109,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestBlacklistApi\E$/^\QCreateNewBlacklistRule_success\E$" />
+      <pattern value="^\QTestAntifraudApi\E$/^\QCreateRuleWhitelist_success\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBlacklistApi/GetBlacklist_success in github.com/conekta/conekta-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCompaniesApi/GetCompany_success in github.com/conekta/conekta-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="conekta-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -136,10 +120,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestBlacklistApi\E$/^\QGetBlacklist_success\E$" />
+      <pattern value="^\QTestCompaniesApi\E$/^\QGetCompany_success\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestWhitelistsApi/CreateNewRuleWhitelist_success in github.com/conekta/conekta-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTokensApi in github.com/conekta/conekta-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="conekta-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -147,10 +131,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestWhitelistsApi\E$/^\QCreateNewRuleWhitelist_success\E$" />
+      <pattern value="^\QTestTokensApi\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestWhitelistsApi/DeleteRuleWhitelist_success in github.com/conekta/conekta-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTokensApi/CreateToken_success in github.com/conekta/conekta-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="conekta-go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -158,7 +142,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestWhitelistsApi\E$/^\QDeleteRuleWhitelist_success\E$" />
+      <pattern value="^\QTestTokensApi\E$/^\QCreateToken_success\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test conekta-go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -173,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCompaniesApi/GetCompany_success in github.com/conekta/conekta-go" />
         <item itemvalue="Go Test.go test conekta-go" />
-        <item itemvalue="Go Test.TestBlacklistApi/CreateNewBlacklistRule_success in github.com/conekta/conekta-go" />
-        <item itemvalue="Go Test.TestBlacklistApi/GetBlacklist_success in github.com/conekta/conekta-go" />
-        <item itemvalue="Go Test.TestWhitelistsApi/DeleteRuleWhitelist_success in github.com/conekta/conekta-go" />
-        <item itemvalue="Go Test.TestWhitelistsApi/CreateNewRuleWhitelist_success in github.com/conekta/conekta-go" />
+        <item itemvalue="Go Test.TestTokensApi/CreateToken_success in github.com/conekta/conekta-go" />
+        <item itemvalue="Go Test.TestTokensApi in github.com/conekta/conekta-go" />
+        <item itemvalue="Go Test.TestAntifraudApi/CreateRuleWhitelist_success in github.com/conekta/conekta-go" />
       </list>
     </recent_temporary>
   </component>
@@ -198,36 +182,5 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/api_products_test.go</url>
-          <line>30</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/api_shipping_contacts_test.go</url>
-          <line>29</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/api_shippings_test.go</url>
-          <line>31</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/api_taxes_test.go</url>
-          <line>30</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/api_webhooks_test.go</url>
-          <line>30</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
