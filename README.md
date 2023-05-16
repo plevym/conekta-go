@@ -119,6 +119,7 @@ Class | Method | HTTP request | Description
 *AntifraudApi* | [**DeleteRuleWhitelist**](docs/AntifraudApi.md#deleterulewhitelist) | **Delete** /antifraud/whitelists/{id} | Delete whitelisted rule
 *AntifraudApi* | [**GetRuleBlacklist**](docs/AntifraudApi.md#getruleblacklist) | **Get** /antifraud/blacklists | Get list of blacklisted rules
 *AntifraudApi* | [**GetRuleWhitelist**](docs/AntifraudApi.md#getrulewhitelist) | **Get** /antifraud/whitelists | Get a list of whitelisted rules
+*ChargesApi* | [**GetCharges**](docs/ChargesApi.md#getcharges) | **Get** /charges | Get A List of Charges
 *ChargesApi* | [**OrdersCreateCharge**](docs/ChargesApi.md#orderscreatecharge) | **Post** /orders/{id}/charges | Create charge
 *CompaniesApi* | [**GetCompanies**](docs/CompaniesApi.md#getcompanies) | **Get** /companies | Get List of Companies
 *CompaniesApi* | [**GetCompany**](docs/CompaniesApi.md#getcompany) | **Get** /companies/{id} | Get Company
@@ -136,9 +137,11 @@ Class | Method | HTTP request | Description
 *EventsApi* | [**GetEvents**](docs/EventsApi.md#getevents) | **Get** /events | Get list of Events
 *LogsApi* | [**GetLogById**](docs/LogsApi.md#getlogbyid) | **Get** /logs/{id} | Get Log
 *LogsApi* | [**GetLogs**](docs/LogsApi.md#getlogs) | **Get** /logs | Get List Of Logs
+*OrdersApi* | [**CancelOrder**](docs/OrdersApi.md#cancelorder) | **Post** /orders/{id}/cancel | Cancel Order
 *OrdersApi* | [**CreateOrder**](docs/OrdersApi.md#createorder) | **Post** /orders | Create order
 *OrdersApi* | [**GetOrderById**](docs/OrdersApi.md#getorderbyid) | **Get** /orders/{id} | Get Order
 *OrdersApi* | [**GetOrders**](docs/OrdersApi.md#getorders) | **Get** /orders | Get a list of Orders
+*OrdersApi* | [**OrderCancelRefund**](docs/OrdersApi.md#ordercancelrefund) | **Delete** /orders/{id}/refunds/{refund_id} | Cancel Refund
 *OrdersApi* | [**OrderRefund**](docs/OrdersApi.md#orderrefund) | **Post** /orders/{id}/refunds | Refund Order
 *OrdersApi* | [**OrdersCreateCapture**](docs/OrdersApi.md#orderscreatecapture) | **Post** /orders/{id}/capture | Capture Order
 *OrdersApi* | [**UpdateOrder**](docs/OrdersApi.md#updateorder) | **Put** /orders/{id} | Update Order
@@ -177,6 +180,15 @@ Class | Method | HTTP request | Description
 *TaxesApi* | [**OrdersDeleteTaxes**](docs/TaxesApi.md#ordersdeletetaxes) | **Delete** /orders/{id}/tax_lines/{tax_id} | Delete Tax
 *TaxesApi* | [**OrdersUpdateTaxes**](docs/TaxesApi.md#ordersupdatetaxes) | **Put** /orders/{id}/tax_lines/{tax_id} | Update Tax
 *TokensApi* | [**CreateToken**](docs/TokensApi.md#createtoken) | **Post** /tokens | Create Token
+*TransactionsApi* | [**GetTransaction**](docs/TransactionsApi.md#gettransaction) | **Get** /transactions/{id} | Get transaction
+*TransactionsApi* | [**GetTransactions**](docs/TransactionsApi.md#gettransactions) | **Get** /transactions | Get List transactions
+*TransfersApi* | [**GetTransfer**](docs/TransfersApi.md#gettransfer) | **Get** /transfers/{id} | Get Transfer
+*TransfersApi* | [**GetTransfers**](docs/TransfersApi.md#gettransfers) | **Get** /transfers | Get a list of transfers
+*WebhookKeysApi* | [**CreateWebhookKey**](docs/WebhookKeysApi.md#createwebhookkey) | **Post** /webhook_keys | Create Webhook Key
+*WebhookKeysApi* | [**DeleteWebhookKey**](docs/WebhookKeysApi.md#deletewebhookkey) | **Delete** /webhook_keys/{id} | Delete Webhook key
+*WebhookKeysApi* | [**GetWebhookKey**](docs/WebhookKeysApi.md#getwebhookkey) | **Get** /webhook_keys/{id} | Get Webhook Key
+*WebhookKeysApi* | [**GetWebhookKeys**](docs/WebhookKeysApi.md#getwebhookkeys) | **Get** /webhook_keys | Get List of Webhook Keys
+*WebhookKeysApi* | [**UpdateWebhookKey**](docs/WebhookKeysApi.md#updatewebhookkey) | **Put** /webhook_keys/{id} | Update Webhook Key
 *WebhooksApi* | [**CreateWebhook**](docs/WebhooksApi.md#createwebhook) | **Post** /webhooks | Create Webhook
 *WebhooksApi* | [**DeleteWebhook**](docs/WebhooksApi.md#deletewebhook) | **Delete** /webhooks/{id} | Delete Webhook
 *WebhooksApi* | [**GetWebhook**](docs/WebhooksApi.md#getwebhook) | **Get** /webhooks/{id} | Get Webhook
@@ -191,17 +203,19 @@ Class | Method | HTTP request | Description
 - [ChargeDataPaymentMethodCardResponse](docs/ChargeDataPaymentMethodCardResponse.md)
 - [ChargeDataPaymentMethodCashResponse](docs/ChargeDataPaymentMethodCashResponse.md)
 - [ChargeOrderResponse](docs/ChargeOrderResponse.md)
-- [ChargeOrderResponseChannel](docs/ChargeOrderResponseChannel.md)
 - [ChargeOrderResponsePaymentMethod](docs/ChargeOrderResponsePaymentMethod.md)
 - [ChargeRequest](docs/ChargeRequest.md)
 - [ChargeRequestPaymentMethod](docs/ChargeRequestPaymentMethod.md)
 - [ChargeResponse](docs/ChargeResponse.md)
+- [ChargeResponseChannel](docs/ChargeResponseChannel.md)
+- [ChargeResponsePaymentMethod](docs/ChargeResponsePaymentMethod.md)
 - [ChargeResponseRefunds](docs/ChargeResponseRefunds.md)
 - [ChargeResponseRefundsAllOf](docs/ChargeResponseRefundsAllOf.md)
 - [ChargeResponseRefundsData](docs/ChargeResponseRefundsData.md)
 - [ChargesDataResponse](docs/ChargesDataResponse.md)
 - [Checkout](docs/Checkout.md)
 - [CheckoutOrderTemplate](docs/CheckoutOrderTemplate.md)
+- [CheckoutOrderTemplateCustomerInfo](docs/CheckoutOrderTemplateCustomerInfo.md)
 - [CheckoutRequest](docs/CheckoutRequest.md)
 - [CheckoutResponse](docs/CheckoutResponse.md)
 - [CheckoutsResponse](docs/CheckoutsResponse.md)
@@ -256,6 +270,8 @@ Class | Method | HTTP request | Description
 - [EmailCheckoutRequest](docs/EmailCheckoutRequest.md)
 - [ErrorAllOf](docs/ErrorAllOf.md)
 - [EventResponse](docs/EventResponse.md)
+- [GetChargesResponse](docs/GetChargesResponse.md)
+- [GetChargesResponseAllOf](docs/GetChargesResponseAllOf.md)
 - [GetCompaniesResponse](docs/GetCompaniesResponse.md)
 - [GetCompaniesResponseAllOf](docs/GetCompaniesResponseAllOf.md)
 - [GetCustomerPaymentMethodDataResponse](docs/GetCustomerPaymentMethodDataResponse.md)
@@ -266,6 +282,12 @@ Class | Method | HTTP request | Description
 - [GetPaymentMethodResponseAllOf](docs/GetPaymentMethodResponseAllOf.md)
 - [GetPlansResponse](docs/GetPlansResponse.md)
 - [GetPlansResponseAllOf](docs/GetPlansResponseAllOf.md)
+- [GetTransactionsResponse](docs/GetTransactionsResponse.md)
+- [GetTransactionsResponseAllOf](docs/GetTransactionsResponseAllOf.md)
+- [GetTransfersResponse](docs/GetTransfersResponse.md)
+- [GetTransfersResponseAllOf](docs/GetTransfersResponseAllOf.md)
+- [GetWebhookKeysResponse](docs/GetWebhookKeysResponse.md)
+- [GetWebhookKeysResponseAllOf](docs/GetWebhookKeysResponseAllOf.md)
 - [GetWebhooksResponse](docs/GetWebhooksResponse.md)
 - [GetWebhooksResponseAllOf](docs/GetWebhooksResponseAllOf.md)
 - [LogResponse](docs/LogResponse.md)
@@ -336,6 +358,11 @@ Class | Method | HTTP request | Description
 - [TokenCheckout](docs/TokenCheckout.md)
 - [TokenResponse](docs/TokenResponse.md)
 - [TokenResponseCheckout](docs/TokenResponseCheckout.md)
+- [TransactionResponse](docs/TransactionResponse.md)
+- [TransferDestinationResponse](docs/TransferDestinationResponse.md)
+- [TransferMethodResponse](docs/TransferMethodResponse.md)
+- [TransferResponse](docs/TransferResponse.md)
+- [TransfersResponse](docs/TransfersResponse.md)
 - [UpdateCustomer](docs/UpdateCustomer.md)
 - [UpdateCustomerAntifraudInfo](docs/UpdateCustomerAntifraudInfo.md)
 - [UpdateCustomerFiscalEntitiesResponse](docs/UpdateCustomerFiscalEntitiesResponse.md)
@@ -347,6 +374,11 @@ Class | Method | HTTP request | Description
 - [UpdateOrderTaxResponseAllOf](docs/UpdateOrderTaxResponseAllOf.md)
 - [UpdatePaymentMethods](docs/UpdatePaymentMethods.md)
 - [UpdateProduct](docs/UpdateProduct.md)
+- [WebhookKeyCreateResponse](docs/WebhookKeyCreateResponse.md)
+- [WebhookKeyDeleteResponse](docs/WebhookKeyDeleteResponse.md)
+- [WebhookKeyRequest](docs/WebhookKeyRequest.md)
+- [WebhookKeyResponse](docs/WebhookKeyResponse.md)
+- [WebhookKeyUpdateRequest](docs/WebhookKeyUpdateRequest.md)
 - [WebhookLog](docs/WebhookLog.md)
 - [WebhookRequest](docs/WebhookRequest.md)
 - [WebhookResponse](docs/WebhookResponse.md)

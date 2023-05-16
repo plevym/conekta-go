@@ -4,25 +4,25 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Amount** | Pointer to **int32** |  | [optional] 
-**AmountRefunded** | Pointer to **int32** |  | [optional] 
-**Channel** | Pointer to [**ChargeOrderResponseChannel**](ChargeOrderResponseChannel.md) |  | [optional] 
+**Amount** | Pointer to **int32** | The total amount to be collected in cents | [optional] 
+**AmountRefunded** | Pointer to **int32** | The total amount refunded in cents | [optional] 
+**Channel** | Pointer to [**ChargeResponseChannel**](ChargeResponseChannel.md) |  | [optional] 
 **Charges** | Pointer to [**OrderResponseCharges**](OrderResponseCharges.md) |  | [optional] 
 **Checkout** | Pointer to [**OrderResponseCheckout**](OrderResponseCheckout.md) |  | [optional] 
-**CreatedAt** | Pointer to **int64** |  | [optional] 
-**Currency** | Pointer to **string** |  | [optional] 
+**CreatedAt** | Pointer to **int64** | The time at which the object was created in seconds since the Unix epoch | [optional] 
+**Currency** | Pointer to **string** | The three-letter ISO 4217 currency code. The currency of the order. | [optional] 
 **CustomerInfo** | Pointer to [**OrderResponseCustomerInfo**](OrderResponseCustomerInfo.md) |  | [optional] 
 **DiscountLines** | Pointer to [**OrderResponseDiscountLines**](OrderResponseDiscountLines.md) |  | [optional] 
 **FiscalEntity** | Pointer to [**OrderResponseFiscalEntity**](OrderResponseFiscalEntity.md) |  | [optional] 
 **Id** | Pointer to **string** |  | [optional] 
 **IsRefundable** | Pointer to **bool** |  | [optional] 
 **LineItems** | Pointer to [**OrderResponseProducts**](OrderResponseProducts.md) |  | [optional] 
-**Livemode** | Pointer to **bool** |  | [optional] 
-**Metadata** | Pointer to **map[string]interface{}** |  | [optional] 
-**Object** | Pointer to **string** |  | [optional] 
-**PaymentStatus** | Pointer to **string** |  | [optional] 
+**Livemode** | Pointer to **bool** | Whether the object exists in live mode or test mode | [optional] 
+**Metadata** | Pointer to **map[string]interface{}** | Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format. | [optional] 
+**Object** | Pointer to **string** | String representing the object’s type. Objects of the same type share the same value. | [optional] 
+**PaymentStatus** | Pointer to **string** | The payment status of the order. | [optional] 
 **ShippingContact** | Pointer to [**OrderResponseShippingContact**](OrderResponseShippingContact.md) |  | [optional] 
-**UpdatedAt** | Pointer to **int64** |  | [optional] 
+**UpdatedAt** | Pointer to **int64** | The time at which the object was last updated in seconds since the Unix epoch | [optional] 
 
 ## Methods
 
@@ -95,20 +95,20 @@ HasAmountRefunded returns a boolean if a field has been set.
 
 ### GetChannel
 
-`func (o *OrderResponse) GetChannel() ChargeOrderResponseChannel`
+`func (o *OrderResponse) GetChannel() ChargeResponseChannel`
 
 GetChannel returns the Channel field if non-nil, zero value otherwise.
 
 ### GetChannelOk
 
-`func (o *OrderResponse) GetChannelOk() (*ChargeOrderResponseChannel, bool)`
+`func (o *OrderResponse) GetChannelOk() (*ChargeResponseChannel, bool)`
 
 GetChannelOk returns a tuple with the Channel field if it's non-nil, zero value otherwise
 and a boolean to check if the value has been set.
 
 ### SetChannel
 
-`func (o *OrderResponse) SetChannel(v ChargeOrderResponseChannel)`
+`func (o *OrderResponse) SetChannel(v ChargeResponseChannel)`
 
 SetChannel sets Channel field to given value.
 
