@@ -60,6 +60,8 @@ type APIClient struct {
 
 	AntifraudApi AntifraudApi
 
+	ApiKeysApi ApiKeysApi
+
 	ChargesApi ChargesApi
 
 	CompaniesApi CompaniesApi
@@ -156,6 +158,7 @@ func NewAPIClient(cfg *Configuration) *APIClient {
 
 	// API Services
 	c.AntifraudApi = (*AntifraudApiService)(&c.common)
+	c.ApiKeysApi = (*ApiKeysApiService)(&c.common)
 	c.ChargesApi = (*ChargesApiService)(&c.common)
 	c.CompaniesApi = (*CompaniesApiService)(&c.common)
 	c.CustomersApi = (*CustomersApiService)(&c.common)
