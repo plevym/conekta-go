@@ -1,3 +1,3 @@
-module github.com/conekta/conekta-go
+module github.com/plevym/conekta-go
 
-go 1.16
+go 1.21

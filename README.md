@@ -1,6 +1,6 @@
 ![GO api](conekta.png)
 # conekta Go API Library
-[![Go Reference](https://pkg.go.dev/badge/github.com/conekta/conekta-go.svg)](https://pkg.go.dev/github.com/conekta/conekta-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/plevym/conekta-go.svg)](https://pkg.go.dev/github.com/plevym/conekta-go)
 
 Conekta sdk
 
@@ -19,7 +19,7 @@ For more information, please visit [https://github.com/conekta/openapi/issues](h
 ## Installation
 Download conekta-go package:
 ```
-go get -u github.com/conekta/conekta-go
+go get -u github.com/plevym/conekta-go
 ```
 ## Using the library
 
@@ -31,7 +31,7 @@ import (
     "context"
 	"net/http"
 	
-    "github.com/conekta/conekta-go"
+    "github.com/plevym/conekta-go"
 )
 
 func main() {

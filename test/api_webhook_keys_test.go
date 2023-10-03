@@ -14,7 +14,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/conekta/conekta-go"
+	"github.com/plevym/conekta-go"
 )
 
 func Test_conekta_WebhookKeysApiService(t *testing.T) {
