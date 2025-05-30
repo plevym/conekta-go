@@ -652,6 +652,7 @@ type ApiGetOrdersRequest struct {
 	search          *string
 	next            *string
 	previous        *string
+	paymentStatus   *string
 }
 
 // Use for knowing which language to use
@@ -675,6 +676,11 @@ func (r ApiGetOrdersRequest) Limit(limit int32) ApiGetOrdersRequest {
 // General order search, e.g. by mail, reference etc.
 func (r ApiGetOrdersRequest) Search(search string) ApiGetOrdersRequest {
 	r.search = &search
+	return r
+}
+
+func (r ApiGetOrdersRequest) PaymentStatus(search string) ApiGetOrdersRequest {
+	r.paymentStatus = &search
 	return r
 }
 
@@ -742,6 +748,9 @@ func (a *OrdersApiService) GetOrdersExecute(r ApiGetOrdersRequest) (*GetOrdersRe
 	}
 	if r.previous != nil {
 		parameterAddToHeaderOrQuery(localVarQueryParams, "previous", r.previous, "")
+	}
+	if r.paymentStatus != nil {
+		parameterAddToHeaderOrQuery(localVarQueryParams, "payment_status", r.paymentStatus, "")
 	}
 	// to determine the Content-Type header
 	localVarHTTPContentTypes := []string{}
